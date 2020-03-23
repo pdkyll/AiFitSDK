@@ -1,5 +1,4 @@
 apply plugin: 'com.android.application'
-apply plugin: 'com.github.dcendents.android-maven'
 android {
     compileSdkVersion 26
 
@@ -41,7 +40,8 @@ dependencies {
 //    implementation files('libs/AicareUtils.jar')
 //    implementation files('libs/AlgorithmUtil.jar')
 //    implementation files('libs/iWeightLibrary.jar')
-    implementation (name:'iweightlibrary', ext:'aar')
+//    implementation (name:'iweightlibrary', ext:'aar')
+//    implementation 'com.github.yinbao:BodyFatScale_SDK:1.2.1'
 
 
 }
