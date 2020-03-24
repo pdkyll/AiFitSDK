@@ -33,7 +33,11 @@ dependencies {
 
     implementation 'com.android.support:appcompat-v7:28.0.0'
     testImplementation 'junit:junit:4.12'
-    api (name:'iweightlibrary', ext:'aar')
+//    api (name:'iweightlibrary', ext:'aar')
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    api files('libs/AicareUtils.jar')
+    api files('libs/AlgorithmUtil.jar')
+    api files('libs/getmorefatdata.jar')
+    api files('libs/iWeightLibrary.jar')
 }

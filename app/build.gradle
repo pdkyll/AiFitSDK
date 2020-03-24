@@ -25,13 +25,13 @@ android {
 //        }
 //    }
 
-    //引入依赖路径
-    repositories {
-        flatDir {
-            dir  '../mylibrary/libs'
-            dirs 'libs'
-        }
-    }
+//    //引入依赖路径
+//    repositories {
+//        flatDir {
+//            dir  '../mylibrary/libs'
+//            dirs 'libs'
+//        }
+//    }
 }
 
 dependencies {
