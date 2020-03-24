@@ -184,6 +184,7 @@ public class MyActivity extends BleProfileServiceReadyActivity implements Device
 
         fab_log = findViewById(R.id.fab_log);
         showListView();
+
     }
 
     private void showListView() {
